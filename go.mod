@@ -1,5 +1,5 @@
-module github.com/tchayo/var-replace
+module github.com/Tchayo/var-replace
 
 go 1.12
 
-require github.com/drone/envsubst v1.0.2
+require github.com/joho/godotenv v1.3.0
