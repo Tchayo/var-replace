@@ -11,7 +11,7 @@ func main() {
 	// data structure the template will be applied to
 	vars := make(map[string]interface{})
 	vars["Name"] = "Brienne OBrien"
-	vars["Number"] = "0725836628"
+	vars["Number"] = "0700000000"
 	vars["Message"] = []string{"Message for the ages", "Now you know"}
 
 	// process a template string
