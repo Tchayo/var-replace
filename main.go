@@ -24,7 +24,7 @@ func main() {
 	fmt.Println(resultA)
 
 	// test message to clean
-	example := "#1 message to all f@$ck$r out here! is [loud] to stop(decist)..say what?!'><,|\\"
+	example := "#1 Sample Message with Special Characters (!@#$%^&*[])?!'><,|\\"
 
 	// sanitize message using regexp
 
