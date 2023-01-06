@@ -16,7 +16,6 @@ func main() {
 	vars["Number"] = "0700000000"
 	vars["Message"] = strings.Join(messages, ", ")
 
-
 	// process a template string
 	resultA := template.ProcessString("Hello {{.Name}}, Your mobile number is {{.Number}}. {{.Message}}", vars)
 
