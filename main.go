@@ -15,7 +15,7 @@ func main() {
 	vars["Message"] = []string{"Message for the ages", "Now you know"}
 
 	// process a template string
-	resultA := template.ProcessString("Hello {{.Name}}, My message to you is {{.Number}} has been compromized. {{.Extra}}", vars)
+	resultA := template.ProcessString("Hello {{.Name}}, Your mobile number is {{.Number}}. {{.Message}}", vars)
 
 	// process a template file
 	// resultB := processFile("templates/got.tmpl", vars)
